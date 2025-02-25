@@ -7,4 +7,7 @@
                   start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
+    <toc-element topic="Development-Blog.md">
+        <toc-element topic="Week-01.md"/>
+    </toc-element>
 </instance-profile>
