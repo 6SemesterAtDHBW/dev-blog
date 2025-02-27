@@ -4,10 +4,9 @@ Short introduction to our team members and their experience.
 
 <tabs>
 <tab title="Kai Schablowsky">
-<h2>Kai Schablowsky</h2>
-<h4>TINF22-B5</h4>
+Kai Schablowsky | TINF22-B5
 
-<h3>Expirienced at:</h3>
+Expirienced at:
 - Frontend (React, TypeScript/ JavaScript)
 - Backend (Java SpringBoot)
 - Database
@@ -15,17 +14,15 @@ Short introduction to our team members and their experience.
 
 </tab>
 <tab title="Tobias Raible">
-<h2>Tobias Raible</h2>
-<h4>TINF22-B5</h4>
+Tobias Raible | TINF22-B5
 
-<h3>Expirienced at:</h3>
+Expirienced at:
 - OOP-Programing (Java & Kotlin)
 </tab>    
 <tab title="Niklas Krauth">
-<h2>Niklas Krauth</h2>
-<h4>TINF22-B5</h4>
+Niklas Krauth | TINF22-B5
 
-<h3>Expirienced at:</h3>
+Expirienced at:
 - Frontend (React, TypeScript, etc.)
 - Backend (Java SpringBoot, Python, Go, etc.)
 - VR/AR/MR (Unity, VisionOS)
@@ -33,10 +30,9 @@ Short introduction to our team members and their experience.
 - Database
 </tab>
 <tab title="Tobias Eberle">
-<h2>Tobias Eberle</h2>
-<h4>TINF22-B4</h4>
+Tobias Eberle | TINF22-B4
 
-<h3>Expirienced at:</h3>
+Expirienced at:
 - 8 years experience (Java)
 - Chat Systems
 - GameEngines
