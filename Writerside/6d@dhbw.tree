@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="6d@dhbw"
-                 name="Six-Days-At-DHBW"
+                 name="Six-Semester-At-DHBW"
                   start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
