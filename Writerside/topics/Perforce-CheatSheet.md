@@ -45,7 +45,23 @@ Checking out files
 
 How to work with Unreal Engine 5 and Perforce HelixCore.
 
+**IMPORTANT**
+
+**Submitting and fetching should only be in Perforce and not in Unreal Engine!**
+**There are some bugs when using Perforce inside Unreal Engine so if files need to be submitted then firstly save and close Unreal Engine and submit the files via Perforce.**
+
 ### Setup
+
+Install the newest Version of Unreal Engine from the [Epic games Launcher](https://store.epicgames.com/de/download).
+
+#### New Project
+
+Create a new project. 
+After initialisation, click on the button on the lower right called "Revision Control" and then on "Connect to Revision Control". This will open a new window were Perforce needs to be chosen as the provider and then add server, name and workspace. Accept the settings and if correct then Perforce is setup correctly.  
+
+#### Existing Project
+
+If the project was fetched from Perforce then open the .uproject-file and then follow the steps from above.
 
 ### Work with files
 
