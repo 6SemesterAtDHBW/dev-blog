@@ -6,8 +6,4 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="38c9d61f">
-        <description>Created after removal of "About Six-Days-At-DHBW" from Six-Days-At-DHBW</description>
-        <accepts>starter-topic.html</accepts>
-    </rule>
 </rules>
