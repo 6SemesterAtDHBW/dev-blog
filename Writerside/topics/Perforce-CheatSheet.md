@@ -46,8 +46,8 @@ Checking out files
 How to work with Unreal Engine 5 and Perforce HelixCore.
 
 <warning>
-**Submitting and fetching should only be in Perforce and not in Unreal Engine!**
-**There are some bugs when using Perforce inside Unreal Engine so if files need to be submitted then firstly save and close Unreal Engine and submit the files via Perforce.**
+    **Submitting and fetching should only be in Perforce and not in Unreal Engine!**
+    **There are some bugs when using Perforce inside Unreal Engine so if files need to be submitted then firstly save and close Unreal Engine and submit the files via Perforce.**
 </warning>
 
 ### Setup
