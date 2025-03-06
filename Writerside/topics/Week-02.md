@@ -55,3 +55,18 @@ The elevator is now fully functional and complete, we will however still change 
 supposed to be a second elevator, as well as two hallways on the side of them.
 
 [//]: # (TODO multiplayer information?)
+
+### Multiplayer
+
+We have added the feature to play the game in multiplayer mode with your friends.  
+These sample images and videos show what our multiplayer currently looks like.
+
+At the current state, the multiplayer can be shared with up to 4 people on one server. 
+
+#### Demo picture multiplayer:
+
+![Multiplayer-Demo-1.jpg](Multiplayer-Demo-1.jpg)
+
+#### Demo video multiplayer:
+
+<video src="Multiplayer-Demo-Video.mp4"/>
