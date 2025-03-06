@@ -7,7 +7,8 @@
 
 ## Progress this week
 
-This week, we created new sounds, reworked the starter room and gave the elevator some animations.
+This week, we created new sounds, reworked the starter room and gave the elevator some animations. We also reworked a
+main menu that shows up when the game is started and added support for multiplayer through Steam.
 
 ### Sounds
 
@@ -70,8 +71,8 @@ servers, and joining a server.
 
 ![Create-Server-W2.png](Create-Server-W2.png)
 
-We also played around a bit in the game and took some screenshots and videos of the multiplayer mode, since even just
-running around with friends can be fun:
+We also played around a bit in the game and took some screenshots and videos of the multiplayer mode, since we wanted to
+share how even just running around with friends can be fun:
 
 ![Multiplayer-Demo-1.jpg](Multiplayer-Demo-1.jpg)
 
