@@ -54,19 +54,25 @@ After doing this, the mirror works flawlessly (and exposes that we were too lazy
 The elevator is now fully functional and complete, we will however still change the layout of the room, as there is
 supposed to be a second elevator, as well as two hallways on the side of them.
 
-[//]: # (TODO multiplayer information?)
+### Multiplayer and Main Menu
 
-### Multiplayer
-
-We have added the feature to play the game in multiplayer mode with your friends.  
+We have added the feature to play the game in multiplayer mode with your friends.
 These sample images and videos show what our multiplayer currently looks like.
 
-At the current state, the multiplayer can be shared with up to 4 people on one server. 
+At the current state, the multiplayer can be shared with up to 4 people on one server.
 
-#### Demo picture multiplayer:
+To join a server, we added a Main Menu with basic functionalities like creating a server, viewing a list of active
+servers, and joining a server.
+
+![Main-Menu-W2.png](Main-Menu-W2.png)
+
+![Server-List-W2.png](Server-List-W2.png)
+
+![Create-Server-W2.png](Create-Server-W2.png)
+
+We also played around a bit in the game and took some screenshots and videos of the multiplayer mode, since even just
+running around with friends can be fun:
 
 ![Multiplayer-Demo-1.jpg](Multiplayer-Demo-1.jpg)
-
-#### Demo video multiplayer:
 
 <video src="Multiplayer-Demo-Video.mp4"/>
