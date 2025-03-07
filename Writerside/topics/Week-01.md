@@ -46,4 +46,6 @@ in the starter room, which makes some parts of the hallway quite dark.
 The starter room contains some brighter lights that enlightens the room with the two elevator doors, the player will be
 able to go into them in a future version.
 
+## Time spent
 
+![Timesheet-W1.png](Timesheet-W1.png)
