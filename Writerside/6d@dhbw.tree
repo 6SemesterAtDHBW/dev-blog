@@ -19,5 +19,6 @@
     <toc-element topic="Development-Blog.md">
         <toc-element topic="Week-01.md"/>
         <toc-element topic="Week-02.md"/>
+        <toc-element topic="Week-03.md"/>
     </toc-element>
 </instance-profile>
