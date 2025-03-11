@@ -8,8 +8,10 @@
 
 This week we improved our sounds and added new sounds like elevator noises etc.
 We have also been looking for materials such as decorations that we will add to our game in the different
-classrooms and bring some life to the game.
-...
+classrooms and bring some life to the game. \
+... 
+
+[//]: # (TODO add progress)
 
 ### Sounds
 
@@ -32,4 +34,4 @@ The following image shows the FAB Marketplace:
 
 ## Time spent
 
-
+[//]: # (TODO insert timesheet)
