@@ -71,6 +71,22 @@ That happens through the call of the event MultiCast_Sprint, which Replicate Mod
 ![multiplayer_sync_example_multicast.png](multiplayer_sync_example_multicast.png)
 
 
+### Camera Effects
+
+To make the game more realistic and to give the player a better horror feeling of the game, we changed the following camera effects:
+
+- Added a vignette effect to the camera, which darkens the edges of the screen and makes the center of the screen brighter,
+- Added a chromatic aberration effect to the camera, which makes the colors of the screen look a bit distorted,
+- Added a bloom effect to the camera, which makes the light sources in the game look a bit brighter and more realistic,
+- Added a depth of field effect to the camera, which makes the objects in the background look a bit blurry and the objects in the foreground look a bit sharper,
+
+and many more smaller changes to the camera effect settings.
+
+### Enemy AI
+
+We have added a new small enemy AI to the game, which is in the current state a simple enemy that follows the player if it is in a certain range.
+The enemy AI is based on the Unreal Engine AI Controller and uses the Unreal Engine AI Perception System to detect the player.
+
 ## Time spent
 
 [//]: # (TODO insert timesheet)
