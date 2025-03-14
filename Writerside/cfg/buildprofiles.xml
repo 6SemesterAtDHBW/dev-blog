@@ -3,11 +3,14 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
     <build-profile instance="6d@dhbw">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
 
+    <footer>
+        <social type="blog" href="https://6semesteratdhbw.github.io/dev-blog/development-blog.html"/>
+        <link href="https://github.com/6SemesterAtDHBW/dev-blog">Source</link>
+    </footer>
 </buildprofiles>
