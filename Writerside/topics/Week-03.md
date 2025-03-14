@@ -1,9 +1,5 @@
 # Week 03
 
-## New Technology used this week
-
--
-
 ## Progress this week
 
 This week we improved our sounds and added new sounds like elevator noises etc.
@@ -114,4 +110,4 @@ player.
 
 ## Time spent
 
-[//]: # (TODO insert timesheet)
+![Timesheet-W3.png](Timesheet-W3.png)
