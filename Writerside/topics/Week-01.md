@@ -18,6 +18,8 @@ Karlsruhe.
 
 We added an overview of our team members, you can find that in the [](Team-Members.md) section.
 
+### Time management
+
 We began by identifying the strengths of each team member. Based on this, we assigned tasks that align with their areas
 of expertise, ensuring everyone has a role that plays to their strengths.
 
