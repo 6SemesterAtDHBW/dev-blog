@@ -8,7 +8,33 @@ classrooms and bring some life to the game. We also further improved the movemen
 improved the camera effects.
 ...
 
-[//]: # (TODO add progress)
+### Improved Starter Room
+
+We improved the starter room further over the last week.
+The mirror in the last week had some issues with lighting - there were flickering dots flying around on all textures and
+no color was visible. After some information gathering, we found out that the issue was caused by the `Lumen` system for
+Global Illumination, which has some issues with reflections in the newest Unreal Engine version.
+
+![illumination-settings.png](illumination-settings.png)
+
+To fix this, we changed to the newer `Screen Space` system for our First Person Camera. This comes with a few major
+improvements, even tho it is currently only in Beta. You can see a real difference:
+
+<video src="illumination-old.mp4" preview-src="illumination-old-thumbnail.png"/>
+
+This is the old system. You can not only see the flickering dots, but if you compare it to the new system, you can see a
+few more real improvements:
+
+- Textures are fully visible in the mirror
+- The wall textures appear much more detailed
+- The lighting is much more realistic, seeming a bit more dim
+- If you look around, the effect of bending on the side of the mirror doesn't look as weird (in the old system, it looks
+  as if that's not a reflection, but the real texture)
+
+<video src="illumination-new.mp4" preview-src="illumination-new-thumbnail.png"/>
+
+Together with this, we improve our lamps the make them invisible through walls if looked at through the mirror.
+We also changed the room layout a bit, so that the starter room resembles the room better.
 
 ### Sounds
 
@@ -107,6 +133,8 @@ We have added a new small enemy AI to the game, which is in the current state a 
 it is in a certain range.
 The enemy AI is based on the Unreal Engine AI Controller and uses the Unreal Engine AI Perception System to detect the
 player.
+
+<video src="enemy-ai.mp4"/>
 
 ## Time spent
 
