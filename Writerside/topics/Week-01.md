@@ -18,6 +18,15 @@ Karlsruhe.
 
 We added an overview of our team members, you can find that in the [](Team-Members.md) section.
 
+We began by identifying the strengths of each team member. Based on this, we assigned tasks that align with their areas
+of expertise, ensuring everyone has a role that plays to their strengths.
+
+The weekly workload varies depending on the tasks at hand. While we try to keep it balanced, the nature of the tasks may
+cause this to not always be possible. However, we've agreed that each team member should have something to work on
+each week, and even if time is limited, there will be a minimum level of contribution.
+
+This way, the amount of time spent on the project should balance out over the course of the project.
+
 ## Progress this week
 
 After a bumpy start with our version control system, we managed to get everything up and running.
