@@ -23,8 +23,6 @@ The following image is a Screenshot of the Mixing & Filter area in FL Studio:
 
 ![FL_Studio.png](FL_Studio.png)
 
-[//]: # (TODO a video of the sounds ingame?)
-
 ### Elevator animations
 
 We converted the elevator door into a blueprint and added a sliding animation to it. The elevator door now opens when
