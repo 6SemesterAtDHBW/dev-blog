@@ -22,7 +22,7 @@ improvements, even tho it is currently only in Beta. You can see a real differen
 
 <video src="illumination-old.mp4" preview-src="illumination-old-thumbnail.png"/>
 
-This is the old system. You can not only see the flickering dots, but if you compare it to the new system, you can see a
+This is the old system. Not only are the flickering dots gone, but if you compare it to the new system, you can see a
 few more real improvements:
 
 - Textures are fully visible in the mirror
