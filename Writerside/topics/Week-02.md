@@ -5,6 +5,40 @@
 - [FL Studio](https://www.image-line.com/)
 - Blender (Modification of some static meshes)
 
+## Architecture
+The main focus in week 2 was on creating an concept for our architecture.
+Although the input we got was mainly focused on Unity, we still got some relevant stuff to present.
+So the main different is clearly that in Unity the logic is gets written in C, while in UnrealEngine we can use such things as blueprints.
+Although there is C++ code and classes available in most cases its not used. As all the functionalities are covered in Blueprints.
+
+### Project Structure
+To start with the basics our project structure looks like this.
+
+![projectStructure.png](projectStructure.png)
+
+Thats the vary basics but still relevant so we all know were to find certain models and blueprints.
+
+### Perforce HelixCore Setup
+As we use Perforce HelixCore as Version Control System we setup up some Streams in git known as branches, so we all can code at the same time without creating much conflicts.
+
+![perforce_streams.png](perforce_streams.png)
+
+Its a very basic concept of streams, a main stream and for each dev and own stream.
+
+### Coding / Blueprints
+As already mentioned in UnrealEngine there is no real coding and classes as their blueprints.
+So widely know concepts in architecture cant be used directly. Still in Blueprints there also exists stuff like Inheritance, which is also one of the main part we will use.
+So an example for that would be that at the moment we have an upper class BP_FirstPersonCharacter, which handles all the logic but has like an template character used for development.
+To create multiple characters we could create parents of that class were we onl adjust the character and some animations details, but the logic is still handled, by the parent class.
+While that is an theoretical example, we can also present one we will defintly implement.
+
+So as we have items in the game that can be picked upped we will have a parent class to handle that.
+
+![inheritance.png](inheritance.png)
+
+The parent class will have a mesh and a collision sphere, to handle the pickup, for each item in the game like a flashlight a child could be added were only the mesh must be updated.
+Additionally in the child there could be also an adjustment of parent settings or additions to functionalities as already known from the concept of inheritance.
+
 ## Progress this week
 
 This week, we created new sounds, reworked the starter room and gave the elevator some animations. We also reworked a
