@@ -1,5 +1,28 @@
 # Week 03
 
+## Addictive Patterns
+This week focus of the class were addictive patterns. Especially what kind of addictive pattern we will have in our game and how we implement them. Basically they can be divided in the categories Create, Collobarate, Compete and Explore. 
+For each game the categories have an different impact and a different weight. The thoughts we made for each category are summarized below:
+
+### Create
+
+- Character Selector
+
+### Collobarate
+
+- Multiplayer with Friends
+- Multiplayer only actions or locations, you need to be together to find certain places or do certain actions
+
+### Compete
+
+- Achievemnents like Finish in Time, Fins Easter Eggs, Special Items
+
+### Explore
+
+- Unique Map
+- Find special places, Easter Eggs, hidden content
+- Find items
+
 ## Progress this week
 
 This week we improved our sounds and added new sounds like elevator noises etc.
