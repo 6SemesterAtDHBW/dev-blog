@@ -23,6 +23,8 @@ For each game the categories have an different impact and a different weight. Th
 - Find special places, Easter Eggs, hidden content
 - Find items
 
+Some of the points are already implemented, some are still in the planning phase. We will see how we can implement them in the next weeks.
+
 ## Progress this week
 
 This week we improved our sounds and added new sounds like elevator noises etc.
