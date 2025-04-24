@@ -55,6 +55,29 @@ The timer was implemented to show the time left for the players to finish the ga
 To further improve upon the multiplayer aspect, voice chat was introduces. This is currently in its early stages and has some issues with the audio quality as well as selecting the right audio device.
 We use Steams inbuilt `VOIP`-feature for Unreal Engine, though this has its limitations as mentioned.
 
+## AI Enemy
+
+To make the game more interactive, we have decided to integrate an AI Enemy that follows the player as soon as it sees him. As long as the player is not in sight, the enemy randomly patrols the game world.
+For this behavior, a playable character was first created, which was assigned different movement speeds (e.g. walking and running). On this basis, an AI opponent was designed that monitors its surroundings using a pawn sensing system. If the opponent detects the player using this system (e.g. by sight), a reaction chain is triggered.
+
+![Screenshot 2025-04-21 at 4.48.17 PM.png](Screenshot_2025-04-21_at_4.48.17 PM.png)
+
+The underlying logic was implemented entirely using blueprints. Two main behaviors are used:
+
+1. At the beginning, a user-defined “MoveToRandomLocation” event is called in the “BeginPlay” event. This retrieves a random location around the opponent via “Get Random Location in Navigable Radius” and transfers it to the “AI MoveTo” node, causing the opponent to move to the new position. Once the target is reached, the patrol event is called again, creating an infinite loop.
+2. When the player is recognized via “On See Pawn”, a sequence is started:
+- First the opponent plays a certain animation (e.g. change to fighting or running stance). 
+- Then the movement speed is set to a higher value (e.g. 500) with “Set Max Walk Speed” to initiate the race. 
+- This is followed by the “AI MoveTo” command, with which the opponent actively pursues the player.
+3. After a delay (e.g. 2 seconds), a reset logic is executed:
+- A new animation is played (e.g. back to idle or normal running).
+- The movement speed is reduced again (e.g. to 250).
+- The opponent is then reset to patrol mode. 
+This behavior ensures a dynamic AI that reacts to the player's presence and adapts accordingly. The animations (e.g. “Run”, “Idle”, ‘Walk’) are set manually in the blueprint using the “Play Animation” node, depending on the situation.
+This combination of random movement, visual recognition and targeted behavior makes the AI appear credible and interactive, which noticeably enhances the gameplay.
+
+![Screenshot 2025-04-21 at 4.47.44 PM.png](Screenshot_2025-04-21_at_4.47.44 PM.png)
+
 ## Topic this week
 
 [//]: # (TODO is there a topic? if yes, add it, if not, delete this section)
