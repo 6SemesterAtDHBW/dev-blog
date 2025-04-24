@@ -1,4 +1,4 @@
-# Week 04
+# Week 05
 
 ## Progress this week
 
@@ -32,6 +32,23 @@ This allows us to make the hallway as long as we want and create everything fast
 
 ![pcg_hallway.png](pcg_hallway.png)
 ![pcg_room.png](pcg_room.png)
+
+## Collectable Items
+
+Exam results are now collectable items in the game. They are the main task in the game - Collect all exam results.
+
+![examResults](examResults.png)
+
+All the exam results need to be collected to progress further. Also for every next level, more exam results need to be collected.
+
+To spawn the exam results, actors are generated from the `PCG`-system. This allows us to spawn the exam results in a specific area with random rotation and offset while also set the amount of exam results that need to be collected.
+
+
+## Timer
+
+The timer was implemented to show the time left for the players to finish the game. The timer is displayed in the top of the screen and counts down from 10 minutes.
+
+![timer](timer.png)
 
 ### VoiceChat
 
