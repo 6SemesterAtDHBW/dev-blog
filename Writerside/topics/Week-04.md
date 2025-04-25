@@ -55,7 +55,7 @@ The collection of game data is carried out through various mechanisms within Unr
 
 ### Final Implementation
 
-So above we made a big concept of what is possible what would be an optimal soluton for our game.
+So above we made a big concept of what is possible what would be an optimal solution for our game.
 Still we needed to first implement a basic version of the game analytics, before we go into detail.
 For that we looked out for solutions and there were a lot, especially if you are willing to pay. 
 But we preffered a free solution, that isnt the default Unreal Engine 5 Insights, which are good, but lack some functionalities.
