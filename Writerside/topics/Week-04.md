@@ -248,4 +248,4 @@ We also added a menu that shows up when you pause the game:
 
 ## Time spent
 
-![timeSpent.png](timeSpent.png)
+![Timesheet-W4.png](Timesheet-W4.png)
