@@ -137,6 +137,36 @@ This allows us to make the hallway as long as we want and create everything fast
 
 ![pcg_room.png](pcg_room.png)
 
+### Starter Room
+
+We also implemented the final version of our starter room, which took up enough time by now. We took inspiration from
+some images we took while we were at the DHBW.
+
+In this first image, you can see the area near the elevators, with some posters that resemble the actual area at the
+DHBW.
+
+![](Starter-Room-Hallway-Ingame.png)
+
+![](Starter-Room-Hallway.jpg)
+
+While most of the DHBW is modelled as closely as possible, we haven't added a staircase yet, which is why the door
+visible in the screenshot below is barely visible.
+
+![](Elevator-Staircase-Ingame.png)
+
+![](Elevator-Staircase.jpg)
+
+### End Room
+
+We also added the door to the balcony and the escape staircase that is present in our reference footage. As we do not
+have a Skybox yet, the outside also isn't modelled yet.
+
+![](End-Room-Ingame.png)
+
+![](End-Room-Balcony.jpg)
+
+![](End-Room-Escape-Staircase.jpg)
+
 ## Collectable Items
 
 Exam results are now collectable items in the game. They are the main task in the game - Collect all exam results.
