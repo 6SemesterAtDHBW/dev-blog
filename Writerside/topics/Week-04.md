@@ -188,8 +188,7 @@ the screen and counts down from 10 minutes.
 
 To further improve upon the multiplayer aspect, voice chat was introduced. This is currently in its early stages and has
 some issues with the audio quality as well as selecting the right audio device.
-We use Steams inbuilt `VOIP`-feature for Unreal Engine, though this has its limitations as mentioned.
-
+We use Steam's inbuilt `VOIP`-feature for Unreal Engine, though this has its limitations as mentioned.
 ## AI Enemy
 
 To make the game more interactive, we have decided to integrate an AI Enemy that follows the player as soon as it sees
