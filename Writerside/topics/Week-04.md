@@ -186,4 +186,4 @@ Ingame Pause Menu
 
 ## Time spent
 
-[//]: # (TODO insert timesheet) 
+![timeSpent.png](timeSpent.png)
