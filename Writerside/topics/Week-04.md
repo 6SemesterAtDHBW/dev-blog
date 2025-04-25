@@ -138,7 +138,7 @@ The timer was implemented to show the time left for the players to finish the ga
 
 ### VoiceChat
 
-To further improve upon the multiplayer aspect, voice chat was introduces. This is currently in its early stages and has some issues with the audio quality as well as selecting the right audio device.
+To further improve upon the multiplayer aspect, voice chat was introduced. This is currently in its early stages and has some issues with the audio quality as well as selecting the right audio device.
 We use Steams inbuilt `VOIP`-feature for Unreal Engine, though this has its limitations as mentioned.
 
 ## AI Enemy
