@@ -78,6 +78,26 @@ This combination of random movement, visual recognition and targeted behavior ma
 
 ![Screenshot 2025-04-21 at 4.47.44 PM.png](Screenshot_2025-04-21_at_4.47.44 PM.png)
 
+## Main Menu
+The main menu was till now only there for pure functionality, which is also the main reason for it in any game.
+Still we decided to give it a new fresh UI, to make it feel more integrated into the game.
+A screenshot of it is shown below.
+
+![mainMenu.png](mainMenu.png)
+
+As you may recognize we took an screenshot of the DHBW Karlsruhe App Students use to see there current grades and calendar.
+On top of it we reworked the sidebar and added buttons which are used to navigate through the main menu and start a game should it be singleplayer or multiplayer.
+The image above only shows the Main Menu, but every other menu we have ingame was also reworked. Its not necessary to go through each in detail, but for completeness we will show the other menus below.
+
+![serverList.png](serverList.png)
+Serverlist
+
+![createServer.png](createServer.png)
+Create Server
+
+![ingamePauseMenu.png](ingamePauseMenu.png)
+Ingame Pause Menu
+
 ## Topic this week
 
 [//]: # (TODO is there a topic? if yes, add it, if not, delete this section)
