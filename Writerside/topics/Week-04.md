@@ -100,8 +100,6 @@ All other events were also successfully logged and can be seen in the web-panel.
 
 ## Progress this week
 
-[//]: # (TODO add progress info)
-
 This week we have been mostly working on the main map like classrooms and hallways as well as on implementing voiceChat
 for multiplayer.
 
