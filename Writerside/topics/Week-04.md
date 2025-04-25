@@ -83,7 +83,7 @@ To look at one specific event, we took and Item Drop event
 
 ![Event.png](Event.png)
 There are a lot of information, from the OS the player is playing on till the language and actuall event. Looking at the end of the first line you can see there the event_id which says Item:Drop.
-All other events where also successfully logged and can be seen in the webpanel.
+All other events were also successfully logged and can be seen in the webpanel.
 
 
 ## Progress this week
