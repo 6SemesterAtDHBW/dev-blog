@@ -72,8 +72,7 @@ Therefore we created a new function to send the events to the GameAnalytics API.
 ![GAnalyticsFunction.png](AnalyticsFunction.png)
 
 In specific we send an Event Id paired for some optional informations, at the moment only for example for an player picking up or dropping items, starting the game.
-There is defintly more to follow but we wanted to get a basic version up and running to test it.
-
+There is definitely more to follow but we wanted to get a basic version up and running to test it.
 Now to see the events in the webpanel, we need to start the game and play it for a bit. After that we can open the section Live Events in the panel, which looks like that.
 
 ![LiveEvents.png](LiveEvents.png)
