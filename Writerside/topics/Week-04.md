@@ -103,8 +103,7 @@ Almost all the assets come in 1 meter, 2 meter, 5 meter and 10 meter sizes, so t
 
 ![modular_assets.png](modular_assets.png)
 
-Also created where different windows and doors to complete the hallways and rooms.
-
+Also created were different windows and doors to complete the hallways and rooms.
 ![modular_assets_2.png](modular_assets_2.png)
 
 These modular assets where used to build parts of the hallway and rooms.
