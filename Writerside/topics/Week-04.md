@@ -60,29 +60,29 @@ Still we needed to first implement a basic version of the game analytics, before
 For that we looked out for solutions and there were a lot, especially if you are willing to pay. 
 But we preferred a free solution, that isn't the default Unreal Engine 5 Insights, which are good, but lack some functionalities.
 So we decided for GameAnalytics.com,  is free for small teams and was quite easy to integrate.
-Right of the box, it offers a lot of functionalities, like it shows the current users playing, sending errors to it and so one.
-That all is visible in a webpanel, that looks like this:
+Right of the box, it offers a lot of functionalities, like it shows the current users playing, sending errors to it and so on.
+That all is visible in a web-panel, that looks like this:
 
 ![GameAnalyticsWebPanel.png](GameAnalyticsWebPanel.png)
 
 In that example we only have an example of some stats, in specific, the Realtime Stats of our game.
 Next up we decided to log some events, getting information about how the player interacts while playing the game.
-Therefore we created a new function to send the events to the GameAnalytics API.
+Therefore, we created a new function to send the events to the GameAnalytics API.
 
 ![GAnalyticsFunction.png](AnalyticsFunction.png)
 
-In specific we send an Event Id paired for some optional informations, at the moment only for example for an player picking up or dropping items, starting the game.
-There is definitely more to follow but we wanted to get a basic version up and running to test it.
-Now to see the events in the webpanel, we need to start the game and play it for a bit. After that we can open the section Live Events in the panel, which looks like that.
+In specific, we send an Event I'd paired for some optional information, at the moment only for example for a player picking up or dropping items, starting the game.
+There is definitely more to follow, but we wanted to get a basic version up and running to test it.
+Now to see the events in the web-panel, we need to start the game and play it for a bit. After that we can open the section Live Events in the panel, which looks like that.
 
 ![LiveEvents.png](LiveEvents.png)
 
-You can see an overview over every event happend that was logged in the game.
+You can see an overview over every event happened that was logged in the game.
 To look at one specific event, we took and Item Drop event
 
 ![Event.png](Event.png)
-There are a lot of information, from the OS the player is playing on till the language and actuall event. Looking at the end of the first line you can see there the event_id which says Item:Drop.
-All other events were also successfully logged and can be seen in the webpanel.
+There are a lot of information, from the OS the player is playing on till the language and actual event. Looking at the end of the first line you can see there the event_id which says Item:Drop.
+All other events were also successfully logged and can be seen in the web-panel.
 
 
 ## Progress this week
@@ -130,7 +130,7 @@ To spawn the exam results, actors are generated from the `PCG`-system. This allo
 
 ## Timer
 
-The timer was implemented to show the time left for the players to finish the game. The timer is displayed in the top of the screen and counts down from 10 minutes.
+The timer was implemented to show the time left for the players to finish the game. The timer is displayed at the top of the screen and counts down from 10 minutes.
 
 ![timer](timer.png)
 
@@ -169,9 +169,9 @@ A screenshot of it is shown below.
 
 ![mainMenu.png](mainMenu.png)
 
-As you may recognize we took an screenshot of the DHBW Karlsruhe App Students use to see there current grades and calendar.
+As you may recognize we took a screenshot of the DHBW App Students use to see their current grades and calendar.
 On top of it we reworked the sidebar and added buttons which are used to navigate through the main menu and start a game should it be singleplayer or multiplayer.
-The image above only shows the Main Menu, but every other menu we have ingame was also reworked. Its not necessary to go through each in detail, but for completeness we will show the other menus below.
+The image above only shows the Main Menu, but every other menu we have ingame was also reworked. It's not necessary to go through each in detail, but for completeness we will show the other menus below.
 
 ![serverList.png](serverList.png)
 Serverlist
