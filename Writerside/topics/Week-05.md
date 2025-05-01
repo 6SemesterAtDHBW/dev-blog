@@ -8,6 +8,12 @@ This week the full gameplay was added to the game. The player now needs to colle
 
 ### Flashlight
 
+We added a toggleable flashlight to the game. The flashlight can be used to illuminate the dark areas of the map.
+We did this by adding a spotlight to the first person character, of which the visibility is toggled when pressing the button.
+Here's an example of the flashlight in action:
+
+![Flashlight.png](Flashlight.png)
+
 ### Bug Fixes
 
 The AI now moves to all the classrooms via Nav Links and Nav Meshes. This allows the AI to move around the map freely.
@@ -34,4 +40,4 @@ A flashlight is available to the player, which can be used to illuminate the dar
 
 ## Time spent
 
-[//]: # (TODO insert timesheet) 
+![Timesheet-W5.png](Timesheet-W5.png)
