@@ -20,7 +20,7 @@ The AI now moves to all the classrooms via Nav Links and Nav Meshes. This allows
 
 Sound for the opening and closing of the classroom doors has been added.
 
-Unused Code have been removed from the project for example handling items and unused AI movements.
+Unused Code has been removed from the project, for example, handling items and unused AI movements.
 
 ### AI Character
 
