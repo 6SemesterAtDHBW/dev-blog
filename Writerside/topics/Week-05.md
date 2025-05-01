@@ -2,15 +2,17 @@
 
 ## Progress this week
 
-[//]: # (TODO add progress info)
-
 ### Flashlight
 
-[//]: # (TODO add content)
+### Bug Fixes
 
-## Topic this week
+### AI Movement
 
-[//]: # (TODO is there a topic? if yes, add it, if not, delete this section)
+### AI Character
+
+### How to play the game?
+
+### Game Analytics Results
 
 ## Time spent
 
