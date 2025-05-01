@@ -4,7 +4,7 @@
 
 ### Level Design
 
-This week the full gameplay was added to the game. The player now needs to collect the exam results while a counter count these. If enough are collected than then the player can advance to the next level. 
+This week the full gameplay was added to the game. The player now needs to collect the exam results while a counter counts these. If enough are collected, then the player can advance to the next level. 
 
 ### Flashlight
 
