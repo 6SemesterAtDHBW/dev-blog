@@ -15,7 +15,7 @@ For each game the categories have an different impact and a different weight. Th
 
 ### Compete
 
-- Achievemnents like Finish in Time, Fins Easter Eggs, Special Items
+- Achievements like Finish in Time, Fins Easter Eggs, Special Items
 
 ### Explore
 
